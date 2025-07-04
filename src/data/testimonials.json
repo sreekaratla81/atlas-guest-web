@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t1",
+    "name": "Sarah L.",
+    "message": "Finding my dream apartment was so easy with this site!",
+    "location": "Los Angeles, CA"
+  },
+  {
+    "id": "t2",
+    "name": "David R.",
+    "message": "The booking process was smooth and the apartment matched the photos.",
+    "location": "New York, NY"
+  },
+  {
+    "id": "t3",
+    "name": "Emily J.",
+    "message": "Great selection and very helpful support. Highly recommend!",
+    "location": "Chicago, IL"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "apt-101",
+    "title": "Modern Studio in Downtown",
+    "location": "New York, NY",
+    "price": 2200,
+    "images": ["/assets/apt1.jpg"],
+    "amenities": ["WiFi", "Air Conditioning", "Kitchen"],
+    "description": "A cozy modern studio located in the heart of NYC.",
+    "featured": true
+  },
+  {
+    "id": "apt-102",
+    "title": "2-Bedroom Apartment with Balcony",
+    "location": "San Francisco, CA",
+    "price": 3200,
+    "images": ["/assets/apt2.jpg"],
+    "amenities": ["WiFi", "Parking", "Washer"],
+    "description": "Spacious apartment with a stunning city view.",
+    "featured": true
+  }
+]
