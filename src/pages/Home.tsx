@@ -1,9 +1,5 @@
-import { Box, Container, Typography, Divider, Stack } from '@mui/material';
+import { Box } from '@mui/material';
 import HeroBanner from '../components/HeroBanner';
-import SearchBar from '../components/SearchBar';
-import apartments from '../data/apartments.json';
-import ApartmentCard from '../components/ApartmentCard';
-import Testimonials from '../components/Testimonials';
 import IntroSection from '../components/IntroSection';
 import VideoSection from '../components/VideoSection';
 import ApartmentTypeSection from '../components/ApartmentTypeSection';
@@ -13,7 +9,6 @@ import VisitInfoSection from '../components/VisitInfoSection';
 import NewsletterSection from '../components/NewsletterSection';
 
 const Home = () => {
-  const featured = apartments.filter((apt) => apt.featured);
 
   return (
     <Box>

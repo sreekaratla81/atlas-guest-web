@@ -4,15 +4,11 @@ import {
   Typography,
   Card,
   CardContent,
-  useMediaQuery,
-  useTheme,
   Stack
 } from '@mui/material';
 import testimonials from '../data/testimonials.json';
 
 const Testimonials = () => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
     <Box sx={{ backgroundColor: '#f9f9f9', py: 6, mt: 8 }}>
