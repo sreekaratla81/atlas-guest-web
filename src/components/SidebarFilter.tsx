@@ -52,13 +52,13 @@ const SidebarFilter = ({ onFilterChange }: FilterProps) => {
       {/* Price Range */}
       <Box mt={3}>
         <Typography gutterBottom>Price Range ($)</Typography>
-        <Slider
-          value={price}
-          onChange={(e, newVal) => setPrice(newVal as number[])}
-          valueLabelDisplay="auto"
-          min={0}
-          max={10000}
-        />
+          <Slider
+            value={price}
+            onChange={(_, newVal) => setPrice(newVal as number[])}
+            valueLabelDisplay="auto"
+            min={0}
+            max={10000}
+          />
       </Box>
 
       {/* Location Input */}

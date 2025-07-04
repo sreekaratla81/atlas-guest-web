@@ -4,7 +4,6 @@ import {
   Typography,
   useMediaQuery,
   useTheme,
-  Stack,
 } from '@mui/material';
 
 const VisitInfoSection = () => {
